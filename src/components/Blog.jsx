@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import secularism from "../assets/images/secu.png";
 import cricket_diplomacy from "../assets/images/cricket_diplomacy.jpg";
 import climate_change from "../assets/images/climate_change.jpg";
 import india_soft from "../assets/images/india_soft.jpg";
@@ -31,7 +32,7 @@ const Blog = () => {
               </h1>
             </div>
             <div className="blog-image">
-              <img src={cricket_diplomacy} alt="" />
+              <img src={secularism} alt="" />
             </div>
             <div className="blog-content">
              Secularism is a concept that has gained increasing importance in shaping the social, political, and legal frameworks 
